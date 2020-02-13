@@ -75,3 +75,5 @@ RUN conda install -y -c menpo opencv3=3.1.0 \
 # Install JupyterLab and a few other dependencies that we need
 # TODO: pin versions
 RUN pip install --no-cache-dir jupyterlab bokeh sympy sklearn torchviz
+
+COPY *.ipynb app/.
