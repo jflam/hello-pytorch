@@ -76,4 +76,4 @@ RUN conda install -y -c menpo opencv3=3.1.0 \
 # TODO: pin versions
 RUN pip install --no-cache-dir jupyterlab bokeh sympy sklearn torchviz
 
-COPY *.ipynb app/.
+COPY *.ipynb .
